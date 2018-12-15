@@ -14,4 +14,22 @@ public class ExampleUnitTest {
     public void addition_isCorrect() {
         assertEquals(4, 2 + 2);
     }
+	
+	@Test
+    public void submitValidData() {
+		
+		assertNotNull(solo.findViewById("com.mhassan.expenses.category"));
+		assertNotNull(solo.findViewById("com.mhassan.expenses.amount"));
+		assertNotNull(solo.findViewById("com.mhassan.expenses.date"));
+		solo.sendKey(findViewById("com.mhassan.expenses.date"));
+        
+    }
+	
+	@Test
+    public void verifyNewExpenceHaveData() {
+		solo.sendKey(findViewById("com.mhassan.expenses.item"));
+		assertNotNull(solo.findViewById("com.mhassan.expenses.category"));
+		assertNotNull(solo.findViewById("com.mhassan.expenses.amount"));
+		assertNotNull(solo.findViewById("com.mhassan.expenses.date"));
+    }
 }
