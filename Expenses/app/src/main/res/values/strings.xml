@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Expenses</string>
+    <string name="call_add_expenses">Add Expenses</string>
+    <string name="new_expense">New Expense</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="add">add</string>
+    <string name="edit">Edit</string>
+</resources>
