@@ -32,19 +32,4 @@ public class ExampleUnitTest {
 		assertNotNull(solo.findViewById("com.mhassan.expenses.amount"));
 		assertNotNull(solo.findViewById("com.mhassan.expenses.date"));
     }
-	
-	@Test
-    public void wrongTestCase() {
-		assertNotNull(solo.findViewById("com.mhassan.expenses.category"));
-		assertNotNull(solo.findViewById("com.mhassan.expenses.amount"));
-		assertNotNull(solo.findViewById("com.mhassan.expenses.date"));
-    }
-	
-	@Test
-    public void wrongTestCase() {
-		solo.sendKey(findViewById("com.mhassan.expenses.item"));
-		assertNotNull(solo.findViewById("com.mhassan.expenses.category"));
-		assertNotNull(solo.findViewById("com.mhassan.expenses.amount"));
-		assertNotNull(solo.findViewById("com.mhassan.expenses.date"));
-    }
 }
